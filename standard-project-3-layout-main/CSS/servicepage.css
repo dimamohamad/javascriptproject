@@ -69,7 +69,7 @@
 .text-overlay a:hover {
     text-decoration: none;
     text-align: center;
-    color: blue;
+    color: #003366;
     
 
 
@@ -82,19 +82,17 @@
 }
 
 
-
-@media (max-width: 425px) {
-    #serviceText {
-      font-size: 2em;
-      height: auto;
+@media screen and (max-width: 426px) {
+    
+    .card1 {
+        width: 20em;
+        height: 20em;
     }
-
+    .text-overlay {
+        opacity: 1;
+    }
     .text-overlay p {
         font-weight: lighter;
         font-size: 0.65em;
     }
-    .card1 {
-      width: 350px;
-      height: 350px;
-    }
-  }
+}
